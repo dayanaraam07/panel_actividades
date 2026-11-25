@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Panel de actividades</title>
+  </head>
+  <body>
+   <script>
+  console.log("hola");
+</script>
+    <h1>Mis Actividades</h1>
+    <header>
+  <h1>Mi panel de actividades</h1>
+</header>
+
+<main>
+  <section>
+    <h2>Tareas de hoy</h2>
+    <ul>
+      <li>Comprar leche y comida <span class="badge-prioridad">alta</span></li>
+      <li>Preparar el informe y enviar por correo <span class="badge-prioridad">media</span></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Nueva tarea</h2>
+    <form>
+      <label for="titulo">Nombre de esta asignacion</label>
+      <input type="text" id="titulo" required maxlength="90">
+
+      <label for="descripcion">Detalle</label>
+      <textarea id="descripcion"> </textarea>
+
+      <label for="prioridad">Prioridad</label>
+      <select id="prioridad">
+        <option>Baja</option>
+        <option>Media</option>
+        <option>Alta</option>
+      </select>
+
+      <button>Crear tarea</button>
+    </form>
+  </section>
+</main>
+<footer>
+  <p>Panel de actividades, hecho con HTML</p>
+</footer>
+  </body>
+</html>
